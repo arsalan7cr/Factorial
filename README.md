@@ -1,19 +1,18 @@
 % Factorial Program c
 % Practicing
 ----------------------------------------------------------------------
-#include <stdio.h>
- 
-int main()
+#include<iostream>
+using namespace std;
+void main()
 {
   int k, n, fact = 1;
  
-  printf("Enter a number to calculate its factorial\n");
-  scanf("%d", &n);
+  cout << "Enter a number to calculate its factorial" <<endl;
+  cin >> n;
  
   for (k = 1; k <= n; k++)
-    fact = fact * k;
- 
-  printf("Factorial of %d = %d\n", n, fact);
- 
-  return 0;
+  {
+  fact = fact * k;
+  }
+  cout << "Factorial of " << n <<"="<< fact;
 }
