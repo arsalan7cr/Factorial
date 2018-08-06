@@ -1,5 +1,5 @@
 % Factorial Program c
-% This is a sample factorial program in c language.
+% This is a simple factorial program in c language.
 ----------------------------------------------------------------------
 #include <stdio.h>
  
