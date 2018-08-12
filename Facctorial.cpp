@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void main()
+int main()
 {
   int k, n, fact = 1;
  
@@ -12,4 +12,5 @@ void main()
   fact = fact * k;
   }
   cout << "Factorial of " << n <<"="<< fact;
+  return 0;
 }
