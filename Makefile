@@ -1,9 +1,9 @@
 
 CC = g++
 
-OBJ = 	Factorial.o 
+OBJ = 	factorial.o 
 
-PRG = 	FACTORIAL
+PRG = 	Facctorial
 
 $(PRG): $(OBJ)
 	$(CC) $(OBJ) -static -o $(PRG)
