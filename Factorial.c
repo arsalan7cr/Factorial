@@ -1,6 +1,4 @@
-% Factorial Program c
-% Source file
-----------------------------------------------------------------------
+
 #include <stdio.h>
  
 int main()

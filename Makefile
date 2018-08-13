@@ -1,20 +1,16 @@
 
 CC = g++
 
-CFLAGS = -O3
-CFLAGS = -g
+OBJ = 	Factorial.o 
 
-OBJ = 	offsetstone.o 
-
-PRG = offsetstone
+PRG = 	factorial
 
 $(PRG): $(OBJ)
 	$(CC) $(OBJ) -static -o $(PRG)
 	
 
-offsetstone.o: 	offsetstone.c \
-		soa_algorithms.h
-		$(CC) $(CFLAGS) -c offsetstone.c
+Factorial.o: 	Factorial.c 
+		$(CC) $(CFLAGS) -c Factorial.c
 
 clean:
 	rm -rf $(OBJ) $(PRG)
