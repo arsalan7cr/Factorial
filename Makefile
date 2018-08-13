@@ -3,7 +3,7 @@ CC = g++
 
 OBJ = 	Factorial.o 
 
-PRG = 	FactoriaL
+PRG = 	Factorial
 
 $(PRG): $(OBJ)
 	$(CC) $(OBJ) -static -o $(PRG)
